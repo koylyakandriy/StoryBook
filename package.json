@@ -1,16 +1,16 @@
 {
-  "name": "story-books",
+  "name": "storybooks",
   "version": "1.0.0",
-  "description": "App to shere public or write private stories",
+  "description": "App to share public or write private stories",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Koylyak Andriy",
+  "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "mongoose": "^5.4.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
   }
