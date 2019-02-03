@@ -10,8 +10,7 @@ router.get('/google/callback',
   });
 
 router.get('/verify', (req, res) => {
-  if(req.user){
-    console.log(req.user);
+  if(req.user) {
   } else {
     console.log('Not Auth');
   }
