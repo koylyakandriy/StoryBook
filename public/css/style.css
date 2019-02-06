@@ -27,3 +27,7 @@ footer {
 #delete-form {
   display: inline;
 }
+
+.btn-delete {
+  min-width: 72px;
+}
